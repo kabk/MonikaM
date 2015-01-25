@@ -7,9 +7,78 @@ body {
     }
 
 header {
-    padding: 0 0 0 5%;
-    font-size: 22px;
+    padding: 20px 0px 0px 120px;
+    font-size: 28px;
+} 
+
+
+h1 { 
+    position: absolute;
+    left: 28%;
+    top: 250px; 
+    font-size: 80px;
+}  
+
+h2 { 
+    position: absolute;
+    left: 5%; 
+    top: 700px; 
+    font-size: 38px;
+} 
+
+h3 { 
+    position: absolute;
+    left: 21%; 
+    top: 28px; 
+    font-size: 38px;
+} 
+
+
+#top_left{   
+    position: fixed;
+    left:10px;
+    top: 3%; 
+    border-top-style: solid; 
+    border-left-style: solid; 
+    width:100px; 
+    height:100px;  
+    color: black;
+} 
+
+
+#bottom_left{   
+    position: fixed;
+    left: 10px;
+    top:85%; 
+    border-left-style: solid; 
+    border-bottom-style: solid; 
+    width:100px; 
+    height:100px;  
+    color: black;
+} 
+
+#top_right{ 
+    position: fixed;
+    top: 3%;
+    left: 93%;
+    border-right-style: solid; 
+    border-top-style: solid; 
+    width:100px; 
+    height:100px;  
+    color: black;
 }
+
+#bottom_right{ 
+    position: fixed;
+    top: 85%; 
+    left: 93%;
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    width:100px; 
+    height:100px;  
+    color: black;
+}
+
 
 #toTop {
     z-index: 100px;
@@ -69,34 +138,38 @@ li {
 }
 
 
-nav {
+nav { 
+    position: fixed;
     display: inline-block;
     vertical-align: top;
-    top: 40%;
-    padding-left: 4%;
-    width: 26%;
+    top: 15%;
+    padding-left: 5%;
+    width: 15%;
     /*background: blue;*/
     color: black;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 65px;
+    line-height: 90px; 
+    font-weight: bold;
 }
 
 article {
-    display: inline-block;
-    top: 40%;
-    left: 50%;
-    width: 50%;
+    /*display: inline-block;*/ 
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 60%;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
-    padding-bottom: 50px;
-    /*background: red;*/
+    padding-bottom: 150px;  
+    -webkit-column-count: 2;
+    /*background: red;*/ 
 }
 
 div.image {
     width: 70%;
     height: auto;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 div.caption {
