@@ -142,13 +142,13 @@ nav {
     position: fixed;
     display: inline-block;
     vertical-align: top;
-    top: 15%;
+    top: 13%;
     padding-left: 5%;
     width: 15%;
     /*background: blue;*/
     color: black;
     font-size: 65px;
-    line-height: 90px; 
+    line-height: 110px; 
     font-weight: bold;
 }
 
