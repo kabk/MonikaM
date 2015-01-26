@@ -7,9 +7,9 @@ body {
     }
 
 @font-face { 
-    font-family: 'Wingdings.tff';
-    src: url('font/Wingdings.tff'); 
-
+   
+    font-family: 'Webdings.tff';
+    src: url('fonts/Webdings.tff'); 
     }
 
 
